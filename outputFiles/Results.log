@@ -1,0 +1,45 @@
+2022-06-04 01:45:35 DEBUG Util:18 - Start Parsing File - 
+2022-06-04 01:45:35 DEBUG Util:22 - Start Parsing Lines of - 
+2022-06-04 01:45:35 DEBUG Util:31 - Success : Parsing Lines of - 
+2022-06-04 01:45:35 DEBUG Util:33 - Calculate Duration of Events 
+2022-06-04 01:45:35 DEBUG Util:46 - Success - Parsing File - 
+2022-06-04 01:45:42 DEBUG Util:30 - Validating input...
+2022-06-04 01:45:42 DEBUG Util:37 - File name Found : C:\\Users\\phalg\\eclipse-workspace\\summer\\summer\\inputFiles\\logfile.txt
+2022-06-04 01:45:42 DEBUG Util:46 - Start persing file with FileName  - C:\\Users\\phalg\\eclipse-workspace\\summer\\summer\\inputFiles\\logfile.txt
+2022-06-04 01:45:42 DEBUG Util:50 - Success : File read with FileName  - C:\\Users\\phalg\\eclipse-workspace\\summer\\summer\\inputFiles\\logfile.txt
+2022-06-04 01:45:42 DEBUG DbSupport:23 - Trying to connect database.
+2022-06-04 01:45:42 INFO  ENGINE:? - checkpointClose start
+2022-06-04 01:45:42 INFO  ENGINE:? - checkpointClose synched
+2022-06-04 01:45:42 INFO  ENGINE:? - checkpointClose script done
+2022-06-04 01:45:42 INFO  ENGINE:? - checkpointClose end
+2022-06-04 01:45:42 DEBUG DbSupport:25 - Success - Connected with database.
+2022-06-04 01:45:42 DEBUG DbSupport:29 - Executing query - CREATE TABLE IF NOT EXISTS TestTable (id VARCHAR(100) NOT NULL, duration FLOAT NOT NULL, type VARCHAR(100), host VARCHAR(100), alert BOOLEAN NOT NULL)
+2022-06-04 01:45:42 DEBUG DbSupport:31 - Success - Executing query - CREATE TABLE IF NOT EXISTS TestTable (id VARCHAR(100) NOT NULL, duration FLOAT NOT NULL, type VARCHAR(100), host VARCHAR(100), alert BOOLEAN NOT NULL)
+2022-06-04 01:45:42 DEBUG Util:53 - Success : Table Creation   - C:\\Users\\phalg\\eclipse-workspace\\summer\\summer\\inputFiles\\logfile.txt
+2022-06-04 01:45:42 DEBUG Util:55 - Start persing log of file and Store in DB - C:\\Users\\phalg\\eclipse-workspace\\summer\\summer\\inputFiles\\logfile.txt
+2022-06-04 01:45:42 DEBUG Util:18 - Start Parsing File - C:\\Users\\phalg\\eclipse-workspace\\summer\\summer\\inputFiles\\logfile.txt
+2022-06-04 01:45:42 DEBUG Util:22 - Start Parsing Lines of - C:\\Users\\phalg\\eclipse-workspace\\summer\\summer\\inputFiles\\logfile.txt
+2022-06-04 01:45:42 DEBUG Util:31 - Success : Parsing Lines of - C:\\Users\\phalg\\eclipse-workspace\\summer\\summer\\inputFiles\\logfile.txt
+2022-06-04 01:45:42 DEBUG Util:33 - Calculate Duration of Events 
+2022-06-04 01:45:42 DEBUG Util:31 - Success : Parsing Lines of - C:\\Users\\phalg\\eclipse-workspace\\summer\\summer\\inputFiles\\logfile.txt
+2022-06-04 01:45:42 DEBUG Util:33 - Calculate Duration of Events 
+2022-06-04 01:45:42 DEBUG Util:31 - Success : Parsing Lines of - C:\\Users\\phalg\\eclipse-workspace\\summer\\summer\\inputFiles\\logfile.txt
+2022-06-04 01:45:42 DEBUG Util:33 - Calculate Duration of Events 
+2022-06-04 01:45:42 DEBUG Util:46 - Success - Parsing File - C:\\Users\\phalg\\eclipse-workspace\\summer\\summer\\inputFiles\\logfile.txt
+2022-06-04 01:45:42 DEBUG Util:58 - Success - persing log of file and Store in DB - C:\\Users\\phalg\\eclipse-workspace\\summer\\summer\\inputFiles\\logfile.txt
+2022-06-04 01:45:42 DEBUG Util:60 - Start Reading data Stored in DB - Tablename :  TestTable
+2022-06-04 01:45:42 DEBUG DbSupport:57 - Start GetData from DB
+2022-06-04 01:45:42 DEBUG DbSupport:66 - Success -  GetData from DB End
+2022-06-04 01:45:42 DEBUG Util:62 - Success - End Reading data Stored in DB - Tablename :  TestTable
+2022-06-04 01:45:42 DEBUG Util:64 - Delete all data in table :  TestTable
+2022-06-04 01:45:42 WARN  DbSupport:71 - Start : Deleting all records
+2022-06-04 01:45:42 WARN  DbSupport:73 - Success : Deleting all records END
+2022-06-04 01:45:42 DEBUG Util:67 - Close DB Connection :  TestTable
+2022-06-04 01:45:42 INFO  DbSupport:50 - Starting DB Con Close Operation
+2022-06-04 01:45:42 INFO  DbSupport:52 - Success - DB Con Closed
+2022-06-04 01:45:42 DEBUG Util:77 - Success - End persing file - C:\\Users\\phalg\\eclipse-workspace\\summer\\summer\\inputFiles\\logfile.txt
+2022-06-04 11:45:43 DEBUG Util:18 - Start Parsing File - 
+2022-06-04 11:45:43 DEBUG Util:22 - Start Parsing Lines of - 
+2022-06-04 11:45:43 DEBUG Util:31 - Success : Parsing Lines of - 
+2022-06-04 11:45:43 DEBUG Util:33 - Calculate Duration of Events 
+2022-06-04 11:45:43 DEBUG Util:46 - Success - Parsing File - 
